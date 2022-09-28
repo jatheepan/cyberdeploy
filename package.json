@@ -1,0 +1,23 @@
+{
+  "name": "cyberdeploy",
+  "version": "1.0.0",
+  "description": "main website content",
+  "main": "index.js",
+  "repository": "https://github.com/jatheepan/cyberdeploy.git",
+  "author": "Jatheepan Kanthavel <theepan@cyberdeploy.com>",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"yarn sass\" \"yarn serve\"",
+    "serve": "eleventy --serve",
+    "sass": "sass src/scss/style.scss src/css/styles.css --watch",
+    "build": "eleventy && rimraf docs && mv public docs && cp ./CNAME ./docs/"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "1.0.2",
+    "concurrently": "7.4.0",
+    "handlebars": "4.7.7",
+    "rimraf": "3.0.2",
+    "sass": "1.55.0"
+  },
+  "dependencies": {}
+}
