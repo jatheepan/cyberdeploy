@@ -11,7 +11,7 @@ module.exports = function(config) {
       input: 'src/pages',
       includes: '../includes',
       layouts: '../layouts',
-      output: 'public',
+      output: 'dist',
       data: '../data',
     },
     templateFormats: ['hbs', 'md', '11ty.js'],

@@ -1,0 +1,209 @@
+$primary1: #191c82;
+$primary2: #0053ff;
+$text-color: #505050;
+
+body {
+	background-color: #fbfbfb;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	background: -webkit-linear-gradient(45deg, $primary1 40%, $primary2 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+p, li {
+	font-weight: 200;
+	font-size: 1.2em;
+}
+
+#masthead {
+	display: flex;
+	margin-bottom: 4em;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-branding {
+	padding: 1em;
+	border-radius: 0;
+
+	.site-title {
+		margin: 0;
+		text-align: center;
+		text-shadow: 0 5px 0 #0000001c;
+		background: -webkit-linear-gradient(45deg, #f00, #591bfd 80%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+		a {
+			color: $text-color;
+			//font-size: 2em;
+			text-decoration: none;
+		}
+	}
+}
+
+#site-navigation {
+	margin-right: 1em;
+
+	a {
+		color: $primary2;
+		padding: 0.5em 1em;
+		border-radius: 2em;
+
+		&:hover {
+			background-color: #f2f2f2;
+		}
+	}
+  	.current-menu-item {
+		a {
+			background-color: #f2f2f2;
+		}
+	}
+}
+
+.site-main {
+
+	.page {
+		margin-top: 1em;
+	}
+
+}
+
+.intro {
+	text-align: center;
+
+	.description {
+		font-size: 1.8em;
+		font-weight: 200;
+		color: $text-color;
+	}
+
+}
+
+.home {
+	.entry-header {
+		margin: 0 auto;
+		max-width: 960px;
+	}
+	.entry-content {
+		margin-top: 0;
+	}
+	h1 {
+    margin: 0 0 1em 0;
+    font-weight: bold;
+	}
+
+	h2 {
+		font-size: 2em;
+		color: $text-color;
+    margin-bottom: 1em;
+	}
+
+	.technologies {
+		text-alig: center;
+		margin-bottom: 3em;
+
+		.item {
+          	padding: 3em 0;
+			text-align: center;
+			border-radius: 10px;
+			background-color: #fff;
+			border: 1px solid #f2f2f2;
+		}
+
+		.title {
+			font-size: 4em;
+			text-align: center;
+			color: $text-color;
+			text-shadow: 0 5px 0 #0000001c;
+			font-family: "Playball", Arial, sans-serif;
+		}
+	}
+}
+
+.primary-button {
+	border: 0;
+	color: #fff;
+	font-size: 1.3em;
+	border-radius: 2em;
+	padding: 0.4em 0.8em;
+	display: inline-block;
+	text-decoration: none;
+	background: $primary2;
+	background: -o-linear-gradient(-45deg, $primary2, $primary1);
+	background: -o-linear-gradient(-45deg, $primary2, $primary1);
+	background: linear-gradient(-45deg, $primary2, $primary1);
+
+	&:hover,
+	&:visited {
+		color: #fff;
+	}
+
+	&:hover {
+		background: linear-gradient(45deg, #f00, #591bfd 80%);
+	}
+}
+
+.services {
+	margin: 8em 0;
+	padding: 2em 1em;
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+
+	.row {
+		margin-bottom: 2em;
+	}
+}
+
+.site-footer {
+	padding: 1em;
+	margin-top: 10em;
+
+	.site-info {
+		margin: 0;
+		color: #111;
+		font-size: 1.3em;
+		text-align: center;
+		font-family: "Playball", Arial, sans-serif;
+	}
+}
+
+a,
+a:visited {
+	color: $text-color;
+	text-decoration: none;
+}
+
+.block-section {
+  	padding: 1em;
+  	margin-bottom: 1em;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px solid #f2f2f2;
+}
+
+// Services page
+.services-block {
+	background-image: url("images/service-bg.jpg");
+}
+
+.careers-block {
+	background-image: url("images/careers-bg.jpg");
+}
+
+.services-block,
+.careers-block {
+	margin: 3em 0;
+  	padding: 10em 0;
+	background-size: cover;
+}

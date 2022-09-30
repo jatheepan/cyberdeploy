@@ -1,8 +1,17 @@
 @import 'bootstrap/bootstrap';
+@import 'overrides';
+
+$text-color: #27282c;
+$background-color: #fbfbfb;
 
 body {
-  background-color: #27282c;
-  color: #fff;
+  color: $text-color;
+  background-color: $background-color;
+}
+.site-title {
+  //font-family: 'Noto Sans Mono', monospace;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 main {
   padding: 10px;
