@@ -10,7 +10,7 @@
     "start": "concurrently \"yarn sass\" \"yarn serve\"",
     "serve": "eleventy --serve",
     "sass": "sass src/scss/style.scss src/css/styles.css --watch",
-    "build": "eleventy && rimraf docs && mv public docs && cp ./CNAME ./docs/"
+    "build": "eleventy && rimraf docs && mv dist docs && cp ./CNAME ./docs/"
   },
   "devDependencies": {
     "@11ty/eleventy": "1.0.2",

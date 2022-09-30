@@ -4,11 +4,16 @@ module.exports = function(config) {
   config.addPassthroughCopy({
     './src/css/': './css/'
   });
+
+  config.addHandlebarsHelper('log', function(data) {
+    console.log(data);
+  });
+
   config.addWatchTarget('./src/css/');
 
   return {
     dir: {
-      input: 'src/pages',
+      input: 'src/views',
       includes: '../includes',
       layouts: '../layouts',
       output: 'dist',
@@ -16,6 +21,5 @@ module.exports = function(config) {
     },
     templateFormats: ['hbs', 'md', '11ty.js'],
     htmlTemplateEngine: 'hbs',
-    //passthroughFileCopy: true,
   };
 }

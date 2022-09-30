@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Software Development - Cyberdeploy Inc.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+  <header id="masthead" class="site-header">
+    <div class="site-branding">
+      <p class="site-title"><a href="/" ref="home">Cyberdeploy Inc.</a></p>
+    </div>
+  </header>
+  <main id="primary" class="site-main">
+    
+<p>
+  We design and develop your mobile applications from the ground up
+</p>
+
+  </main>
+  </body>
+</html>

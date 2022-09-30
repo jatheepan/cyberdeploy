@@ -1,0 +1,16 @@
+---
+layout: default-page
+title: Services
+eleventyExcludeFromCollections: true
+
+
+---
+
+
+{{#each collections.services}}
+  <div class="block-section">
+    <h2>{{data.title}}</h2>
+    <p>{{data.excerpt}}</p>
+  </div>
+{{/each}}
+
