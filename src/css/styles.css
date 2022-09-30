@@ -10838,16 +10838,17 @@ p, li {
   color: #505050;
 }
 
+h1, .h1 {
+  margin: 0 0 1em 0;
+  font-weight: bold;
+}
+
 .home .entry-header {
   margin: 0 auto;
   max-width: 960px;
 }
 .home .entry-content {
   margin-top: 0;
-}
-.home h1, .home .h1 {
-  margin: 0 0 1em 0;
-  font-weight: bold;
 }
 .home h2, .home .h2 {
   font-size: 2em;

@@ -88,6 +88,11 @@ p, li {
 
 }
 
+h1 {
+  margin: 0 0 1em 0;
+  font-weight: bold;
+}
+
 .home {
 	.entry-header {
 		margin: 0 auto;
@@ -95,10 +100,6 @@ p, li {
 	}
 	.entry-content {
 		margin-top: 0;
-	}
-	h1 {
-    margin: 0 0 1em 0;
-    font-weight: bold;
 	}
 
 	h2 {
