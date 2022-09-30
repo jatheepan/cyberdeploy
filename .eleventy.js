@@ -2,7 +2,8 @@ module.exports = function(config) {
   let handlebars = require('handlebars');
   config.setLibrary('hbs', handlebars);
   config.addPassthroughCopy({
-    './src/css/': './css/'
+    './src/css/': './css/',
+    './src/fonts': './css/fonts/'
   });
 
   config.addHandlebarsHelper('log', function(data) {
