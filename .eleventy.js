@@ -3,7 +3,7 @@ module.exports = function(config) {
   config.setLibrary('hbs', handlebars);
   config.addPassthroughCopy({
     './src/css/': './css/',
-    './src/fonts': './css/fonts/'
+    './src/scss/fonts/fonts': './css/fonts/'
   });
 
   config.addHandlebarsHelper('log', function(data) {
